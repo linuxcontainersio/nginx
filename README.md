@@ -20,6 +20,9 @@ This docker image nginx-1.19.0 is the stable version has been released, incorpor
 
 ----
 
+## Now also on GitLab
+Pushed to gitlab
+
 ## What is Alpine Linux?
 Alpine Linux is a Linux distribution built around musl libc and BusyBox. The image is only 10 MB in size and has access to a package repository that is much more complete than other BusyBox based images. This makes Alpine Linux a great image base for utilities and even production applications. Read more about Alpine Linux here and you can see how their mantra fits in right at home with Docker images.
 
