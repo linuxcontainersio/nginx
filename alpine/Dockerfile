@@ -19,7 +19,7 @@ LABEL maintainer="Peter <peter@linuxcontainers.io>" \
     org.opencontainers.image.created=$BUILD_DATE
 
 
-ENV NGINX_VERSION=1.19.0
+ENV NGINX_VERSION=1.19.1
 
 RUN \
   apk update && \
