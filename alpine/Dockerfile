@@ -6,7 +6,7 @@ ARG VCS_REF
 LABEL maintainer="Peter <peter@linuxcontainers.io>" \
     architecture="amd64/x86_64" \
     alpine-version="3.12.0" \
-    nginx-version="1.19.0" \
+    nginx-version="1.19.1" \
     build=$BUILD_DATE \
     org.opencontainers.image.title="alpine-nginx" \
     org.opencontainers.image.description="Nginx Docker image running on Alpine Linux" \
