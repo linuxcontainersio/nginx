@@ -1,25 +1,25 @@
-FROM alpine:latest
+FROM linuxcontainers/alpine:latest
 
 ARG BUILD_DATE
 ARG VCS_REF
 
-LABEL maintainer="Peter <peter@linuxcontainers.io>" \
+LABEL maintainer="Peter <peter@linuxcontainers.dev>" \
     architecture="amd64/x86_64" \
-    alpine-version="3.12.0" \
-    nginx-version="1.19.1" \
+    alpine-version="3.13.1" \
+    nginx-version="1.19.7" \
     build=$BUILD_DATE \
     org.opencontainers.image.title="alpine-nginx" \
     org.opencontainers.image.description="Nginx Docker image running on Alpine Linux" \
-    org.opencontainers.image.authors="Peter <peter@linuxcontainers.io>" \
+    org.opencontainers.image.authors="Peter <peter@linuxcontainers.dev>" \
     org.opencontainers.image.vendor="Peter" \
-    org.opencontainers.image.version="v3.12.0" \
-    org.opencontainers.image.url="https://hub.docker.com/r/linuxcontainers/alpine-nginx/" \
-    org.opencontainers.image.source="https://github.com/linuxcontainersio/alpine-nginx" \
+    org.opencontainers.image.version="v3.13.0" \
+    org.opencontainers.image.url="https://hub.docker.com/r/linuxcontainers/nginx/" \
+    org.opencontainers.image.source="https://github.com/linuxcontainers/nginx" \
     org.opencontainers.image.revision=$VCS_REF \
     org.opencontainers.image.created=$BUILD_DATE
 
 
-ENV NGINX_VERSION=1.19.1
+ENV NGINX_VERSION=1.19.7
 
 RUN \
   apk update && \

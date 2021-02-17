@@ -1,4 +1,4 @@
-# NGINX in Docker
+# NGINX in Alpine Linux in Docker
 
 [![Docker Automated build](https://img.shields.io/docker/automated/linuxcontainers/alpine-nginx.svg?style=for-the-badge&logo=docker)](https://hub.docker.com/r/linuxcontainers/alpine-nginx/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/linuxcontainers/alpine-nginx.svg?style=for-the-badge&logo=docker)](https://hub.docker.com/r/linuxcontainers/alpine-nginx/)
@@ -19,9 +19,6 @@ This docker image is the base Alpine Linux. For more info on versions & support 
 This docker image nginx-1.19.1 is the stable version has been released, incorporating new features and bug fixes from the 1.17.x mainline branch. For more info on versions & support see [Releases](http://nginx.org/en/CHANGES-1.19)
 
 ----
-
-## Now also on GitLab
-Pushed to gitlab
 
 ## What is Alpine Linux?
 Alpine Linux is a Linux distribution built around musl libc and BusyBox. The image is only 10 MB in size and has access to a package repository that is much more complete than other BusyBox based images. This makes Alpine Linux a great image base for utilities and even production applications. Read more about Alpine Linux here and you can see how their mantra fits in right at home with Docker images.
